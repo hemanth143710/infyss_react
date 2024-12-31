@@ -1,0 +1,15 @@
+.categories{
+    /* display: flex;
+    flex-direction: column; */
+    height: 17vh;
+    background: linear-gradient(to bottom, #2e40b6, #2372d7);
+    font-size: 35pt;
+    font-weight: 700 !important;
+    letter-spacing: 5pt;
+    color: white !important ;
+    /* margin-top: 5vh; */
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}

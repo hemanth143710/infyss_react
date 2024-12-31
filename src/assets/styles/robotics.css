@@ -1,0 +1,47 @@
+/* Robotics Section with Fixed Background */
+.robotics-section {
+    display: flex;
+    align-items: flex-start; /* Align content to the top of the section */
+    justify-content: flex-end; /* Align content to the right side */
+    padding: 4% 7%;
+    height: 100vh; /* Full viewport height */
+    background-size: cover; /* Ensure the background covers the entire section */
+    background-position: center center; /* Center the background */
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Fixed background image */
+    overflow: auto; /* Enable scrolling for the entire section */
+}
+
+/* Right Section with Blurred Background */
+.robotics-section-right {
+    max-width: 40%; /* Set width to occupy a smaller portion */
+    padding: 20px;
+    color: black; /* Text color */
+    background: rgba(255, 255, 255, 0.85); /* Semi-transparent white background */
+    backdrop-filter: blur(10px); /* Apply blur effect */
+    -webkit-backdrop-filter: blur(10px); /* Safari Support */
+    border-radius: 10px; /* Optional: rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: subtle shadow */
+    overflow-y: auto; /* Enable vertical scroll for content */
+    height: 100%; /* Make the right section take up the full height */
+    position: relative; /* Allow it to scroll naturally with the page */
+}
+
+/* Hide scrollbar for WebKit browsers */
+.robotics-section-right::-webkit-scrollbar {
+    display: none; /* Hide scrollbar */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .robotics-section {
+        justify-content: center; /* Center the content on smaller screens */
+    }
+    .robotics-section-right {
+        max-width: 80%; /* Occupy more space on smaller screens */
+        height: auto; /* Adjust height for mobile */
+    }
+}
+
+
+

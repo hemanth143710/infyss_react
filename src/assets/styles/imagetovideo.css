@@ -1,0 +1,41 @@
+.imagetovideo-section {
+    display: flex;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+    flex-wrap: wrap; /* Optional: Handle small screens */
+    margin: 2% 7% 4% 7%;
+  }
+  
+  .imagetovideo-section-left {
+    flex: 1; /* Equal space for both sections */
+    padding: 20px; /* Add spacing */
+  }
+
+  .imagetovideo-section-right {
+    flex: 2; /* Equal space for both sections */
+    padding: 20px; /* Add spacing */
+    display: flex;
+    align-items: center; /* Center image vertically */
+    justify-content: center; /* Center image horizontally */
+  }
+  
+  .imagetovideo-section-right img {
+    max-width: 100%; /* Ensure image doesn't exceed container width */
+    height: auto; /* Maintain aspect ratio */
+    object-fit: contain; /* Prevent distortion */
+  }
+
+  @media (max-width: 768px) {
+    .imagetovideo-section {
+      flex-direction: column; /* Stack sections vertically */
+    }
+  
+    /* Change order on small screens */
+    .imagetovideo-section-left {
+      order: -1; /* Move to the top */
+    }
+  
+    .imagetovideo-section-left,
+    .imagetovideo-section-right {
+      flex: 1; /* Full width for each section */
+    }
+  } 

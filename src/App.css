@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Titillium Web", sans-serif;
+}
+
+h1 {
+  font-size: 30pt;
+  font-weight: 700 !important;
+  letter-spacing: 5pt;
+  color: #2e40b6 !important;
+}
+
+h2 {
+  font-size: 21pt;
+  font-weight: 700;
+  letter-spacing: 3pt;
+  color: #2e40b6;
+}
+
+h3 {
+  font-size: 18pt;
+  font-weight: 600;
+  letter-spacing: 1pt;
+  color: #2e40b6 !important;
+}
+
+p {
+  font-size: 16pt;
+  font-weight: 400;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+section {
+  scroll-margin-top: 10px; /* Adjust based on your header height */
+}
+
+
+@media only screen and (max-width: 576px) {
+  h1 {
+    font-size: 22pt;
+    letter-spacing: 3pt;
+  }
+
+  h2 {
+    font-size: 15pt;
+    letter-spacing: 2pt;
+  }
+
+  h3 {
+    font-size: 14pt;
+    letter-spacing: 1pt;
+  }
+
+  p {
+    font-size: 12pt;
+  }
+}

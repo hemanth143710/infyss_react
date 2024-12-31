@@ -1,0 +1,32 @@
+.ecommerce-section {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; /* Align content to the right side */
+    padding: 4% 7%;
+    height: 100vh; /* Full viewport height */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* Right Section with Blurred Background */
+.ecommerce-section-right {
+    max-width: 40%; /* Set width to occupy a smaller portion */
+    padding: 20px;
+    color: black; /* Text color */
+    background: rgba(255, 255, 255, 0.87); /* Light transparent background */
+    backdrop-filter: blur(10px); /* Apply blur effect */
+    -webkit-backdrop-filter: blur(10px); /* Safari Support */
+    border-radius: 10px; /* Optional: rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: subtle shadow */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .ecommerce-section {
+        justify-content: center; /* Center the content on smaller screens */
+    }
+    .ecommerce-section-right {
+        max-width: 80%; /* Occupy more space on smaller screens */
+    }
+}

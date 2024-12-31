@@ -1,0 +1,34 @@
+/* .main-section{
+    padding: 4% 7%;
+} */
+
+.section {
+    display: flex;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+    flex-wrap: wrap; /* Optional: Handle small screens */
+    padding: 4% 7%;
+  }
+  
+  .section-left {
+    flex: 1; /* Equal space for both sections */
+    padding: 20px; /* Add spacing */
+  }
+
+  .section-right {
+    flex: 1; /* Equal space for both sections */
+    padding: 20px; /* Add spacing */
+  }
+  
+  .section-right {
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center; /* Center image vertically */
+    justify-content: center; /* Center image horizontally */
+  }
+  
+  .section-right img {
+    max-width: 100%; /* Ensure image doesn't exceed container width */
+    height: auto; /* Maintain aspect ratio */
+    object-fit: contain; /* Prevent distortion */
+  }
+  

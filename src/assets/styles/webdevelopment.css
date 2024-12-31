@@ -1,0 +1,50 @@
+/* .main-section{
+    padding: 4% 7%;
+} */
+
+
+.webdevelopment-section-left span{
+  font-size: 30pt;
+  font-weight: 700 !important;
+  letter-spacing: 5pt;
+  color: white;
+}
+.webdevelopment-section {
+    display: flex;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+    flex-wrap: wrap; /* Optional: Handle small screens */
+    padding: 4% 7%;
+    background: linear-gradient(to right,#03137a, #4256d7);
+    color: white;
+  }
+  
+  .webdevelopment-section-left {
+    flex: 1; /* Equal space for both sections */
+    padding: 20px; /* Add spacing */
+  }
+
+  .webdevelopment-section-right {
+    flex: 2; /* Equal space for both sections */
+    padding: 20px; /* Add spacing */
+    display: flex;
+    align-items: center; /* Center image vertically */
+    justify-content: center; /* Center image horizontally */
+  }
+  
+  .webdevelopment-section-right img {
+    max-width: 100%; /* Ensure image doesn't exceed container width */
+    height: auto; /* Maintain aspect ratio */
+    object-fit: contain; /* Prevent distortion */
+  }
+
+  @media (max-width: 768px) {
+    .webdevelopment-section {
+      flex-direction: column; /* Stack sections vertically */
+    }
+  
+    .webdevelopment-section-left,
+    .webdevelopment-section-right {
+      flex: 1; /* Full width for each section */
+    }
+  }
+  
