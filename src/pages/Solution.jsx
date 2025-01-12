@@ -4,6 +4,7 @@ import "../assets/styles/solution.css";
 import Webdevelopment from "../components/Webdevelopment";
 import Robotics from "../components/Robotics";
 import Category from "../components/Category";
+import EnterpriseAiSolutions from "../components/EnterpriseAiSolutions";
 
 const Solution = () => {
   return (
@@ -13,6 +14,7 @@ const Solution = () => {
         <Ecommerce />
         <Robotics />
         <Webdevelopment />
+        <EnterpriseAiSolutions />
       </div>
     </Layout>
   );
