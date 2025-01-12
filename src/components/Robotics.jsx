@@ -12,7 +12,12 @@ const Robotics = () => {
     >
       <div className="robotics-section-right">
         <h1>Robotics</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates debitis saepe beatae architecto error fuga eius, animi, accusantium, quos cupiditate ut! Odit delectus, similique repudiandae ducimus ad molestiae provident, a, reprehenderit quas deleniti magnam voluptatibus? Veritatis voluptate eos repellendus omnis, molestiae aspernatur reprehenderit voluptas eaque nesciunt, sunt explicabo excepturi incidunt illo, deleniti asperiores. Impedit fugiat ipsa dignissimos est! Sapiente, voluptatum delectus blanditiis tempora vero expedita nostrum illo ea porro veritatis officia fugit error architecto ullam at numquam in. Eaque velit odio ea deserunt ipsum voluptatibus. Ullam molestias nihil consequatur nulla? Perferendis provident sit maxime ipsa quisquam modi mollitia voluptas doloremque!
+        <p>
+          At Infyss, we lead the way in developing advanced robotics solutions that revolutionize industries and transform the future. 
+          Our expertise spans cutting-edge automation, AI-driven robotics, and intelligent systems designed to optimize operations 
+          and enhance productivity. From industrial automation to smart robots for specialized tasks, Infyss delivers innovative 
+          solutions that are reliable, efficient, and scalable. Experience the power of robotics tailored to your unique requirements 
+          and let us help you embrace the future of intelligent automation with confidence and precision.
         </p>
       </div>
     </div>
