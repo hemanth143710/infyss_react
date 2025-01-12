@@ -125,11 +125,11 @@ const Footers = () => {
                 <span className="lokasi-title">Infyss</span>
               </Title>
               <Text className="lokasi-detail">
-                Menara Standard Chartered Lt. 18
+                9 NH 65 Sri Krupa Market
                 <br />
-                Jl. Prof Dr. Satrio No. 164
+                Malakpet, Hyderabad
                 <br />
-                Jakarta Selatan 12930
+                Telangana 500036
               </Text>
             </Space>
           </Col>
@@ -158,12 +158,12 @@ const Footers = () => {
               </Title>
               <a
                 className="detail-kontak"
-                href="https://api.whatsapp.com/send/?phone=62811145377&text=Halo%20NITRO%2C%20saya%20memerlukan%20bantuan"
+                href="https://api.whatsapp.com/send/?phone=9542407133&text=Hello%20INFYSS"
                 target="_blank"
                 rel="noreferrer"
               >
                 <FaWhatsapp size={22} />
-                <span>WA +62 811-145-377</span>
+                <span>WA +91 954-240-7133</span>
               </a>
             </Space>
           </Col>

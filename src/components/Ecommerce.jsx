@@ -16,11 +16,11 @@ const Ecommerce = () => {
       <div className="ecommerce-section-right">
         <h1>E-commerce</h1>
         <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur
-          fugit dolores placeat, eius animi alias, neque voluptate, corrupti
-          labore ducimus officiis repudiandae saepe autem nostrum in facere
-          molestias? Unde dolores inventore cumque, id nesciunt nemo quidem
-          sequi ex vero corrupti?
+          At Infyss, we specialize in providing cutting-edge e-commerce solutions tailored to meet your business needs. 
+          Our expertise empowers businesses to create seamless online shopping experiences with features like user-friendly
+          interfaces, secure payment integrations, and robust backend systems. Whether you're starting fresh or upgrading your
+          existing platform, Infyss ensures a solution that is innovative, reliable, and scalable. Let us help you transform 
+          your e-commerce vision into reality with solutions that truly deliver.
         </p>
       </div>
     </div>

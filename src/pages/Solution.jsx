@@ -11,9 +11,9 @@ const Solution = () => {
     <Layout>
       <div className="main-section" id="solution-section">
         <Category category='Solutions'/>
+        <Webdevelopment />
         <Robotics />
         <Ecommerce />
-        <Webdevelopment />
         <EnterpriseAiSolutions />
       </div>
     </Layout>
