@@ -58,14 +58,14 @@ const CardJoinUs = (props) => {
             form.resetFields();
             messageApi.open({
               type: "success",
-              content: <span className="message-registrasi">Registrasi Berhasil</span>,
+              content: <span className="message-registrasi">Sucessful</span>,
               className: "custom-class",
             });
           } else {
             console.log("Registrasi Gagal");
             messageApi.open({
               type: "error",
-              content: <span className="message-registrasi">Registrasi Gagal</span>,
+              content: <span className="message-registrasi">Sorry try again</span>,
               className: "custom-class",
             });
           }

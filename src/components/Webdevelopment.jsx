@@ -8,11 +8,11 @@ const Webdevelopment = () => {
       <div className="webdevelopment-section-left">
         <span>Web development</span>
         <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur
-          fugit dolores placeat, eius animi alias, neque voluptate, corrupti
-          labore ducimus officiis repudiandae saepe autem nostrum in facere
-          molestias? Unde dolores inventore cumque, id nesciunt nemo quidem
-          sequi ex vero corrupti?
+          At Infyss, we craft exceptional web development solutions designed to enhance your online presence and drive business growth. 
+          Our expertise spans responsive website design, robust backend development, and seamless integrations to deliver 
+          user-friendly and high-performing web applications. Whether you need a dynamic e-commerce platform, an engaging corporate website, 
+          or a custom web application, Infyss combines innovation and technology to bring your vision to life. Partner with us to build 
+          a digital experience that stands out in today's competitive landscape.
         </p>
       </div>
       <div className="webdevelopment-section-right">
