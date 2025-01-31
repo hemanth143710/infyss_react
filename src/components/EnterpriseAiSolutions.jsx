@@ -53,7 +53,7 @@ const EnterpriseAiSolutions = () => {
         backgroundImage: `url(${bgImage})`, // Inline style for dynamic URL
         backgroundSize: "cover", // Ensure the background covers the container
         backgroundRepeat: "no-repeat", // Prevent repetition
-        backgroundPosition: "center", // Center the background image
+        backgroundPosition: "top left", // Center the background image
         overflow: "hidden", // Remove scrollbars
         height: "100vh", // Make sure it fits the viewport height
         width: "100%", // Full width of the container

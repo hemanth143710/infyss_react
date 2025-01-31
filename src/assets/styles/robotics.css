@@ -6,7 +6,7 @@
     padding: 4% 7%;
     height: 100vh; /* Full viewport height */
     background-size: cover; /* Ensure the background covers the entire section */
-    background-position: center center; /* Center the background */
+    background-position: top top; /* Center the background */
     background-repeat: no-repeat;
     background-attachment: fixed; /* Fixed background image */
     overflow: auto; /* Enable scrolling for the entire section */
