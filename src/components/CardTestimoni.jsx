@@ -95,7 +95,7 @@ const CardTestimoni = () => {
   return (
     <Row className="card-testimoni" justify={"center"} gutter={[0, 40]}>
       <Col className="testimoni-title" span={22}>
-        <h1>TESTIMONY</h1>
+      <h1>What Our Clients Say</h1>
       </Col>
       <Col xs={18} sm={18} md={20} lg={20} xl={22}>
         <Slider {...settingCarousel}>

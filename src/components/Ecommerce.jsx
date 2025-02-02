@@ -16,11 +16,10 @@ const Ecommerce = () => {
       <div className="ecommerce-section-right">
         <h1>E-commerce</h1>
         <p>
-          At Infyss, we specialize in providing cutting-edge e-commerce solutions tailored to meet your business needs. 
-          Our expertise empowers businesses to create seamless online shopping experiences with features like user-friendly
-          interfaces, secure payment integrations, and robust backend systems. Whether you're starting fresh or upgrading your
-          existing platform, Infyss ensures a solution that is innovative, reliable, and scalable. Let us help you transform 
-          your e-commerce vision into reality with solutions that truly deliver.
+          At Infyss, we provide a powerful Image to Video conversion solution that transforms static images into dynamic, engaging videos.
+          Our technology ensures smooth transitions, customizable effects, and high-quality output, making it perfect for content creators,
+          businesses, and marketers. Whether you need to create promotional videos, slideshows, or animations, our solution delivers
+          seamless performance with ease of use. Unlock the full potential of your visuals with our innovative and reliable Image to Video Converter.
         </p>
       </div>
     </div>

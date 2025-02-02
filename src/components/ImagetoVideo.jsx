@@ -35,11 +35,10 @@ const ImagetoVideo = () => {
       <div className="imagetovideo-section-left">
         <h1>Image to Video Converter</h1>
         <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur
-          fugit dolores placeat, eius animi alias, neque voluptate, corrupti
-          labore ducimus officiis repudiandae saepe autem nostrum in facere
-          molestias? Unde dolores inventore cumque, id nesciunt nemo quidem
-          sequi ex vero 
+          At Infyss, we provide a powerful Image to Video conversion solution that transforms static images into dynamic, engaging videos.
+          Our technology ensures smooth transitions, customizable effects, and high-quality output, making it perfect for content creators,
+          businesses, and marketers. Whether you need to create promotional videos, slideshows, or animations, our solution delivers
+          seamless performance with ease of use. Unlock the full potential of your visuals with our innovative and reliable Image to Video Converter.
         </p>
       </div>
     </div>

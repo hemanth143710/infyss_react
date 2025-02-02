@@ -170,16 +170,19 @@ const Headers = () => {
               </ScrollLink>
             </Col>
             <Col span={20} offset={2}>
-              <Link to="/join-us">
-                <Button
-                  className="button-menu-item"
-                  type="primary"
-                  size="middle"
-                >
+              <ScrollLink
+                to="join-us"  // ID of the target section
+                smooth={true}
+                duration={500}
+                offset={-90}
+                onClick={onClose}  // Close drawer after clicking
+              >
+                <Button className="button-menu-item" type="primary" size="middle">
                   Contact us
                 </Button>
-              </Link>
+              </ScrollLink>
             </Col>
+
           </Row>
           <Row className="drawer-content-disclaimer">
             <Col
