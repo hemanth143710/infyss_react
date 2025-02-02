@@ -194,11 +194,10 @@ const Headers = () => {
                 <strong>Disclaimer</strong>
               </p>
               <p>
-                Seberapapun hasil portofolio orang lain atau sekuat apapun
-                trading seseorang yang diikuti. Trading itu sendiri, kembali
-                kepada pemahaman pemain/user terhadap manajemen resiko dan
-                manajemen keuangan yang baik, serta psikologis trading dalam
-                menentukan rencana trading itu sendiri.
+              The success of any portfolio or trading strategy depends on various factors, including market conditions,
+              risk management, and financial planning. Individual results may vary based on personal understanding,
+              decision-making, and psychological resilience in trading. It is important to conduct thorough research 
+              and exercise caution when making financial decisions.
               </p>
             </Col>
           </Row>
