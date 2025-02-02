@@ -1,7 +1,7 @@
 import { Button, Col, Drawer, Flex, Grid, Menu, Row } from "antd";
 import { Header } from "antd/es/layout/layout";
 // import logoNitroboost from "../assets/images/logo-nitroboost.png";
-import logoNitroboost from "../assets/images/Infyss-logo.png";
+import logoNitroboost from "../assets/images/Infyss-logo4.png";
 import { useState } from "react";
 import { LuMenu } from "react-icons/lu";
 import { IoClose } from "react-icons/io5";
