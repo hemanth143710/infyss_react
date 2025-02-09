@@ -9,8 +9,10 @@ Currently, two official plugins are available:
 
 # Development
 Installing Dependencies: npm i
+
 Running the Project: npm run dev
 
 # Production
 Building the Project: npm build
+
 Running the Project: npm run preview 
