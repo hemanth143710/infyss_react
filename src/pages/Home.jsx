@@ -21,7 +21,7 @@ const Home = () => {
         <Products/>
         <Solution/>
         <CardWhyUs />
-        <CardTestimoni />
+        {/* <CardTestimoni /> */}
         <CardJoinUs />
       </Content>
       <Footers />
