@@ -11,10 +11,10 @@ const Solution = () => {
     <Layout>
       <div className="main-section" id="solution-section">
         <Category category='Solutions'/>
-        <Webdevelopment />
+        <EnterpriseAiSolutions />
         <Robotics />
         <Ecommerce />
-        <EnterpriseAiSolutions />
+        <Webdevelopment />
       </div>
     </Layout>
   );

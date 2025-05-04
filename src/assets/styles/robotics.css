@@ -23,23 +23,26 @@
     border-radius: 10px; /* Optional: rounded corners */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: subtle shadow */
     overflow-y: auto; /* Enable vertical scroll for content */
-    height: 100%; /* Make the right section take up the full height */
+    height: 100%; 
     position: relative; /* Allow it to scroll naturally with the page */
 }
 
 /* Hide scrollbar for WebKit browsers */
 .robotics-section-right::-webkit-scrollbar {
-    display: none; /* Hide scrollbar */
+    display: none; 
 }
 
 /* Responsive Design */
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
     .robotics-section {
-        justify-content: center; /* Center the content on smaller screens */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: auto;
     }
     .robotics-section-right {
         max-width: 80%; /* Occupy more space on smaller screens */
-        height: auto; /* Adjust height for mobile */
+        height: auto; 
     }
 }
 

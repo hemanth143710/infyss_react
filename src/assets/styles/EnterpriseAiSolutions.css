@@ -1,0 +1,42 @@
+.enterpriseaisolutions-section {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding: 4% 7%;
+    height: 100vh; 
+    background-size: cover; 
+    background-position: top top;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    overflow: auto; 
+}
+
+.enterpriseaisolutions-section-right {
+    max-width: 40%; 
+    padding: 20px;
+    color: black; 
+    background: rgba(255, 255, 255, 0.85); 
+    backdrop-filter: blur(10px); 
+    -webkit-backdrop-filter: blur(10px); 
+    border-radius: 10px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    overflow-y: auto; 
+    height: 100%; 
+    position: relative; 
+}
+
+.enterpriseaisolutions-section-right::-webkit-scrollbar {
+    display: none; 
+}
+
+@media (max-width: 1024px) {
+    .enterpriseaisolutions-section {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: auto;
+    }
+    .enterpriseaisolutions-section-right {
+        max-width: 80%; 
+    }
+}

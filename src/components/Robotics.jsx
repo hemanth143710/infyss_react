@@ -8,6 +8,7 @@ const Robotics = () => {
       className="robotics-section"
       style={{
         backgroundImage: `url(${bgImage})`, // Inline style for dynamic URL
+        height: "100vh"
       }}
     >
       <div className="robotics-section-right">

@@ -22,7 +22,7 @@
 }
 
 /* Responsive Design */
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
     .ecommerce-section {
         justify-content: center; /* Center the content on smaller screens */
     }
