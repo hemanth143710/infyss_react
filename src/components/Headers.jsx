@@ -194,11 +194,11 @@ const Headers = () => {
                 <strong>Disclaimer</strong>
               </p>
               <p>
-                All content on this website is for
-                informational purposes only. Infyss does not guarantee its
-                completeness or accuracy. Infyss is not responsible for any
-                direct or indirect losses resulting from the use of the
-                information available on this website.
+              All content provided on this website is for informational purposes only. Infyss makes no representations 
+              or warranties regarding the accuracy, completeness, or reliability of any information presented. Any reliance
+              you place on such information is strictly at your own risk. Infyss shall not be held liable for any direct, 
+              indirect, incidental, or consequential losses or damages arising from the use of this website or the information
+              contained herein.
               </p>
             </Col>
           </Row>
