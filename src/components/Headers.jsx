@@ -194,10 +194,11 @@ const Headers = () => {
                 <strong>Disclaimer</strong>
               </p>
               <p>
-              The success of any portfolio or trading strategy depends on various factors, including market conditions,
-              risk management, and financial planning. Individual results may vary based on personal understanding,
-              decision-making, and psychological resilience in trading. It is important to conduct thorough research 
-              and exercise caution when making financial decisions.
+                All content on this website is for
+                informational purposes only. Infyss does not guarantee its
+                completeness or accuracy. Infyss is not responsible for any
+                direct or indirect losses resulting from the use of the
+                information available on this website.
               </p>
             </Col>
           </Row>
