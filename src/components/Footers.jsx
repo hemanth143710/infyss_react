@@ -158,12 +158,12 @@ const Footers = () => {
               </Title>
               <a
                 className="detail-kontak"
-                href="https://api.whatsapp.com/send/?phone=9542407133&text=Hello%20INFYSS"
+                href="https://api.whatsapp.com/send/?phone=9542445549&text=Hello%20INFYSS"
                 target="_blank"
                 rel="noreferrer"
               >
                 <FaWhatsapp size={22} />
-                <span>WA +91 954-240-7133</span>
+                <span>WA +91 954-244-5549</span>
               </a>
             </Space>
           </Col>
